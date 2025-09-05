@@ -1,0 +1,96 @@
+body {
+    background-image: url("../images/WidgetCoLogo.gif");
+    background-size: 850px;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+header {
+    text-align: center;
+    padding: 3px;
+    margin-bottom: 10px;
+    border-bottom-width: 1px;
+    border-bottom-color: black;
+    border-bottom-style: solid;
+    border-top-width: 1px;
+    border-top-color: black;
+    border-top-style: solid;
+    font-variant: small-caps;
+    font-size: 19px;
+}
+
+h1, aside {
+    display: flex;
+    display: inline-block;
+    margin-bottom: 50px;
+}
+
+aside {
+    text-align: right;
+    float: right;
+    margin-right: 80px;
+    border-right-width: 20px;
+    border-right-color: midnightblue;
+    border-right-style: solid;
+    padding: 15px;
+    font-size: 19px;
+    line-height: 1.3;
+}
+
+aside::first-line {
+    font-weight: bold;
+    font-size: 20px;
+    text-align: right;
+}
+
+h1 {
+    font-size: 55px;
+    margin-left: 80px;
+    text-align: left;
+    max-width: 850px;
+}
+
+article {
+    clear: both;
+    margin-left: 300px;
+    margin-right: 300px;
+    margin-bottom: 50px;
+    text-align: justify;
+    text-justify: auto;
+    line-height: 1.4;
+}
+
+
+h2 {
+    text-align: center;
+    font-size: 35px;
+    font-style: italic;
+}
+
+p {
+    font-size: 20px;
+}
+
+section {
+    border-color: green;
+    border-style: solid;
+    padding: 10px;
+    border-left-width: 30px;
+    background: lightyellow;
+    margin-top: 30px;
+    line-height: 1.1;
+}
+
+footer {
+    text-align: right;
+    margin-right: 60px;
+    padding: 3px;
+    border-top-width: 1px;
+    border-top-color: lightslategray;
+    border-top-style: solid;
+    color: slategrey; 
+}
+
+footer a:link {
+    color: slategrey;
+}
